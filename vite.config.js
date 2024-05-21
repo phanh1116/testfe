@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()], // Use the imported plugin function here
+  base: "/testfe",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
